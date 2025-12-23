@@ -600,20 +600,20 @@ const dataMahasiswa = [
     {
         nama: "Posman H.C. Sitinjak",
         nim: "12S25048",
-        foto: "https://ui-avatars.com/api/?name=Posman+H.C.+Sitinjak&background=2ecc71&color=fff",
-        bg: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&q=80&w=1000",
-        asal: "Ujung Tanduk",
+        foto: "img/posman_profil.jpeg",
+        bg: "img/posman_latar.jpeg",
+        asal: "Sidoarjo",
         tgl_lahir: "2006-12-13",
         keluarga: "HELP",
-        hobi: "---",
-        citacita: "---",
-        ig: "@---",
-        quote: "---"
+        hobi: "Olahraga & bermain game",
+        citacita: "Software Engineer ",
+        ig: "chris.stnjk",
+        quote: "Versi terbaik dirimu tidak lahir dari zona nyaman."
     },
     {
         nama: "Grycelda Sthefanny Bintang Theresia Sianturi",
         nim: "12S25049",
-        foto: "https://ui-avatars.com/api/?name=Grycelda+Sthefanny+Bintang+Theresia+Sianturi&background=2ecc71&color=fff",
+        foto: "https://ui-avatars.com/api/?name=Sheryl+Valentina+Banurea&background=2ecc71&color=fff",
         bg: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&q=80&w=1000",
         asal: "Sleman",
         tgl_lahir: "2007-10-18",
