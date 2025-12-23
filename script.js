@@ -210,8 +210,8 @@ const dataMahasiswa = [
     {
         nama: "Ribka Sianturi",
         nim: "12S25018",
-        foto: "img/ribka_profil",
-        bg: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&q=80&w=1000",
+        foto: "img/ribka_profil.jpeg",
+        bg: "img/ribka_latar.jpeg",
         asal: "Silangit",
         tgl_lahir: "2007-04-08",
         keluarga: "Incremental",
