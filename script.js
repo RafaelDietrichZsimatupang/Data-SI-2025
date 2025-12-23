@@ -80,15 +80,15 @@ const dataMahasiswa = [
     {
         nama: "Tongam Prozona Manurung",
         nim: "12S25007",
-        foto: "https://ui-avatars.com/api/?name=Budi+Santoso&background=2ecc71&color=fff",
-        bg: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&q=80&w=1000",
-        asal: "Manduamas",
-        tgl_lahir: "2/12/2007",
+        foto: "img/tongam_profil.jpg",
+        bg: "img/tongam_latar.jpg",
+        asal: "Sipoholon",
+        tgl_lahir: "02/12/2007",
         keluarga: "SPAM",
-        hobi: "---",
-        citacita: "---",
-        ig: "@---",
-        quote: "---"
+        hobi: "Bermain Musik ",
+        citacita: "Data Analis",
+        ig: "tongam_manurung12",
+        quote: "Jangan mudah tertarik hanya karna dia menarik,ingat yang menarik belom tentu yang terbaik"
     },
     {
         nama: "Rafli Batubara",
@@ -145,15 +145,15 @@ const dataMahasiswa = [
     {
         nama: "Kornelius Dwi Yuda Nababan",
         nim: "12S25013",
-        foto: "https://ui-avatars.com/api/?name=Kornelius+Dwi+Yuda+Nababan&background=2ecc71&color=fff",
-        bg: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&q=80&w=1000",
-        asal: "Medan",
+        foto: "img/kornel_profil.jpeg",
+        bg: "img/kornel_latar.jpeg",
+        asal: "Doloksanggul",
         tgl_lahir: "2007-09-16",
         keluarga: "Protocol",
-        hobi: "---",
-        citacita: "---",
-        ig: "@---",
-        quote: "---"
+        hobi: "Melukis,Mendesain,Badminton,Memancing",
+        citacita: "IT Project Manager ",
+        ig: "kornelius_nbbn",
+        quote: "Jangan cepat puas dengan hasil yang diperoleh"
     },
     {
         nama: "Laura Kasih Mutiara",
@@ -171,15 +171,15 @@ const dataMahasiswa = [
     {
         nama: "Chyntia Lovenia Tambunan",
         nim: "12S25015",
-        foto: "https://ui-avatars.com/api/?name=Chyntia+Lovenia+Tambunan&background=2ecc71&color=fff",
-        bg: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&q=80&w=1000",
+        foto: "img/chyntia_profil.jpeg",
+        bg: "img/chyntia_latar.jpeg",
         asal: "Jakarta",
         tgl_lahir: "2007-11-14",
         keluarga: "Coredump",
-        hobi: "---",
-        citacita: "---",
-        ig: "@---",
-        quote: "---"
+        hobi: "Memasak, menyelam (di lautan mimpi)",
+        citacita: "Menyenangkan orang tua & menjadi orang kaya",
+        ig: "chyntiatambunan14_",
+        quote: "Kalau ga bisa menyenangkan orang, ya jangan nyusahin"
     },
     {
         nama: "Loviska Astria Pasaribu",
@@ -210,15 +210,15 @@ const dataMahasiswa = [
     {
         nama: "Ribka Sianturi",
         nim: "12S25018",
-        foto: "https://ui-avatars.com/api/?name=Ribka+Sianturi&background=2ecc71&color=fff",
-        bg: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&q=80&w=1000",
-        asal: "Jetun Silangit",
+        foto: "img/ribka_profil.jpg",
+        bg: "img/ribka_latar.jpg",
+        asal: "Silangit",
         tgl_lahir: "2007-04-08",
         keluarga: "Incremental",
-        hobi: "---",
-        citacita: "---",
-        ig: "@---",
-        quote: "---"
+        hobi: "Bermain musik, nyanyi, berenang",
+        citacita: "Pengembang aplikasi/web",
+        ig: "ribkaa_sianturi",
+        quote: "Belajar, bertumbuh, dan jadi versi terbaik diri sendiri."
     },
     {
         nama: "Gebriel Glen Marcel Pakpahan",
@@ -262,28 +262,28 @@ const dataMahasiswa = [
     {
         nama: "Grace Lusyanna Marpaung",
         nim: "12S25022",
-        foto: "https://ui-avatars.com/api/?name=Grace+Lusyanna+Marpaung&background=2ecc71&color=fff",
-        bg: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&q=80&w=1000",
-        asal: "SIPONGGOL DOLOK",
+        foto: "img/grace_profil.jpeg",
+        bg: "img/grace_latar.jpeg",
+        asal: "Porsea",
         tgl_lahir: "2007-04-03",
         keluarga: "YII",
-        hobi: "---",
-        citacita: "---",
-        ig: "@---",
-        quote: "---"
+        hobi: "Memasak",
+        citacita: "Jadi orang sukses",
+        ig: "gracelusy_",
+        quote: "Teduhlah di bawah keputusanmu sendiri."
     },
     {
         nama: "Ferdinand Nicolas Sihombing",
         nim: "12S25023",
-        foto: "https://ui-avatars.com/api/?name=Ferdinand+Nicolas+Sihombing&background=2ecc71&color=fff",
-        bg: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&q=80&w=1000",
+        foto: "img/ferdinan_profil.jpg",
+        bg: "img/ferdinan_latar.jpg",
         asal: "SIBOLGA",
         tgl_lahir: "2007-04-25",
         keluarga: "PASTE",
-        hobi: "---",
-        citacita: "---",
-        ig: "@---",
-        quote: "---"
+        hobi: "Menonton anime dan bermain game",
+        citacita: "IT Consultant",
+        ig: "hariara_18",
+        quote: "Orang bodoh lebih mudah bahagia, dengan kebodohannya."
     },
     {
         nama: "Veybe Youlanda K M Simanjuntak",
@@ -379,15 +379,15 @@ const dataMahasiswa = [
     {
         nama: "Miransya Gresia Siagian",
         nim: "12S25031",
-        foto: "https://ui-avatars.com/api/?name=Miransya+Gresia+Siagian&background=2ecc71&color=fff",
-        bg: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&q=80&w=1000",
-        asal: "Sisoma",
+        foto: "img/mira_profil.jpg",
+        bg: "img/mira_latar.jpg",
+        asal: "Tapanuli Selatan",
         tgl_lahir: "2007-07-25",
         keluarga: "FLASHDISK",
-        hobi: "---",
-        citacita: "---",
-        ig: "@---",
-        quote: "---"
+        hobi: "Dance, nyanyi, baca komik",
+        citacita: "Data Analyst/Scientist",
+        ig: "miransyagresia",
+        quote: "Kuliah disini seperti tombol, tertekan."
     },
     {
         nama: "Agnes Anela Walysa Pangaribuan",
@@ -431,15 +431,15 @@ const dataMahasiswa = [
     {
         nama: "Sintia Geni Audi Nainggolan",
         nim: "12S25035",
-        foto: "https://ui-avatars.com/api/?name=Sintia+Geni+Audi+Nainggolan&background=2ecc71&color=fff",
-        bg: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&q=80&w=1000",
-        asal: "Rantauprapat",
+        foto: "img/sintia_profil.jpg",
+        bg: "img/sintia_latar.jpg",
+        asal: "Rantau prapat",
         tgl_lahir: "2006-10-08",
         keluarga: "DESKTOP",
-        hobi: "---",
-        citacita: "---",
-        ig: "@---",
-        quote: "---"
+        hobi: "Bernyanyi",
+        citacita: "CEO",
+        ig: "sintianggln08",
+        quote: "Tetaplah tersenyum selagi kau masih punya gigi"
     },
     {
         nama: "Tohonan Emmanuelle Silaban",
@@ -743,15 +743,15 @@ const dataMahasiswa = [
     {
         nama: "Ervinna Christine Debora",
         nim: "12S25059",
-        foto: "https://ui-avatars.com/api/?name=Ervinna+Christine+Debora&background=2ecc71&color=fff",
-        bg: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&q=80&w=1000",
-        asal: "Medan",
+        foto: "img/ervina_profil.jpeg",
+        bg: "img/ervina_latar.jpeg",
+        asal: "Lumban julu",
         tgl_lahir: "2007-06-25",
-        keluarga: "Projector'25",
-        hobi: "---",
-        citacita: "---",
-        ig: "@---",
-        quote: "---"
+        keluarga: "Projector",
+        hobi: "listening music, watching film",
+        citacita: "belom kepikirin tapi intunya punya duit melimpah",
+        ig: "Vinnatobing_",
+        quote: "sebetapa kau mau,Tuk mengubah hidupmu di tanganmu kuasa atas critamu."
     },
     {
         nama: "Nayla Flora Panjaitan",
