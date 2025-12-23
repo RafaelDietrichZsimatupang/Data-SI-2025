@@ -11,20 +11,7 @@ const dataMahasiswa = [
         citacita: "---",
         ig: "---",
         quote: "---"
-    },
-    {
-        nama: "Gracia Anggreini Fitaloka Hutagaol",
-        nim: "12S25001",
-        foto: "https://ui-avatars.com/api/?name=Budi+Santoso&background=2ecc71&color=fff",
-        bg: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&q=80&w=1000",
-        asal: "Parsoburan",
-        tgl_lahir: "10/18/2007",
-        keluarga: "Display",
-        hobi: "---",
-        citacita: "---",
-        ig: "---",
-        quote: "---"
-    },
+    },  
     {
         nama: "Rivaldo Siagian",
         nim: "12S25002",
