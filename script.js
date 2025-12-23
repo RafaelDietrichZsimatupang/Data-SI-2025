@@ -210,8 +210,8 @@ const dataMahasiswa = [
     {
         nama: "Ribka Sianturi",
         nim: "12S25018",
-        foto: "img/IMG_20251223_213340 - Ribka Sianturi",
-        bg: "img/IMG_20250823_180143 - Ribka Sianturi",
+        foto: "img/ribka_profil.jpg",
+        bg: "img/ribka_latar.jpg",
         asal: "Silangit",
         tgl_lahir: "2007-04-08",
         keluarga: "Incremental",
@@ -219,20 +219,7 @@ const dataMahasiswa = [
         citacita: "Pengembang aplikasi/web",
         ig: "ribkaa_sianturi",
         quote: "Belajar, bertumbuh, dan jadi versi terbaik diri sendiri."
-    },
-    {
-        nama: "Ribka Sianturi",
-        nim: "12S25018",
-        foto: "img/IMG_20251223_213340 - Ribka Sianturi",
-        bg: "img/IMG_20250823_180143 - Ribka Sianturi",
-        asal: "Dolok Sanggul",
-        tgl_lahir: "2007-08-17",
-        keluarga: "E-learning",
-        hobi: "Merakit, Mancing, game",
-        citacita: "Software Engineering",
-        ig: "marcelll____",
-        quote: "Capek itu wajar, nyerah itu pilihan"
-    },
+    }, 
     {
         nama: "Gebriel Glen Marcel Pakpahan",
         nim: "12S25019",
