@@ -766,19 +766,6 @@ const dataMahasiswa = [
         ig: "@---",
         quote: "---"
     },
-    {
-        nama: "Nayla Flora Panjaitan",
-        nim: "12S25060",
-        foto: "https://ui-avatars.com/api/?name=Nayla+Flora+Panjaitan&background=2ecc71&color=fff",
-        bg: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&q=80&w=1000",
-        asal: "Medan",
-        tgl_lahir: "2006-12-27",
-        keluarga: "POP 3",
-        hobi: "---",
-        citacita: "---",
-        ig: "@---",
-        quote: "---"
-    },
     
     
 ];
