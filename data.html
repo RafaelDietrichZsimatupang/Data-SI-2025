@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFIL S1 SISTEM INFORMASI 2025</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>MAHASISWA S1 SISTEM INFORMASI 2025</h1>
+        <p>#SILAUMAN</p>
+    </header>
+
+    <div class="container" id="cardContainer">
+        </div>
+
+    <div id="modalDetail" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            
+            <div class="modal-bg" id="modalBg"></div>
+            
+            <div class="modal-body">
+                <img src="" class="profile-pic-large" id="modalProfile" alt="Foto Profil">
+                <h2 id="modalName">Nama Mahasiswa</h2>
+                <p class="nim" id="modalNim">NIM</p>
+                
+                <div class="details">
+                    <p><strong>📍 Asal Daerah:</strong> <span id="modalOrigin"></span></p>
+                    <p><strong>📅 Tanggal Lahir:</strong> <span id="modalBirth"></span></p>
+                    <p><strong>✨ Keluarga Cantik:</strong> <span id="modalFamily"></span></p>
+                    <p><strong>🎮 Hobi:</strong> <span id="modalHobby"></span></p>
+                    <p><strong>🚀 Cita-cita:</strong> <span id="modalGoal"></span></p>
+                    <p><strong>📷 Instagram:</strong> <a href="#" id="modalIg" target="_blank">Link</a></p>
+                </div>
+
+                <div class="quote-box">
+                    <p id="modalQuote">"Quote here"</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
