@@ -2,15 +2,15 @@ const dataMahasiswa = [
     {
         nama: "Gracia Anggreini Fitaloka Hutagaol",
         nim: "12S25001",
-        foto: "https://ui-avatars.com/api/?name=Budi+Santoso&background=2ecc71&color=fff",
-        bg: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&q=80&w=1000",
-        asal: "Parsoburan",
+        foto: "img/gracia_profil.png",
+        bg: "img/gracia_latar.jpeg",
+        asal: "Toba Samosir",
         tgl_lahir: "10/18/2007",
         keluarga: "Display",
-        hobi: "---",
-        citacita: "---",
-        ig: "---",
-        quote: "---"
+        hobi: "Floating & Feeling the Music",
+        citacita: "Healthcare, future doctor😋",
+        ig: "graciahtgg",
+        quote: "A soft little princess, learning every day [imut]"
     },
     {
         nama: "Rivaldo Siagian",
@@ -197,15 +197,15 @@ const dataMahasiswa = [
     {
         nama: "Fenita Anjelina Simbolon",
         nim: "12S25017",
-        foto: "https://ui-avatars.com/api/?name=Fenita+Anjelina+Simbolon&background=2ecc71&color=fff",
-        bg: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&q=80&w=1000",
+        foto: "img/fenita_profil.jpg",
+        bg: "img/fenita_latar.jpg",
         asal: "Siborongborong",
         tgl_lahir: "2006-11-10",
         keluarga: "Share",
-        hobi: "---",
-        citacita: "---",
-        ig: "@---",
-        quote: "---"
+        hobi: "imagine ",
+        citacita: "rich",
+        ig: "fenitamn_",
+        quote: "Live it well and give your best as much as you can . "
     },
     {
         nama: "Ribka Sianturi",
@@ -301,15 +301,15 @@ const dataMahasiswa = [
     {
         nama: "Adellita Varesu Simamora",
         nim: "12S25025",
-        foto: "https://ui-avatars.com/api/?name=Adellita+Varesu+Simamora&background=2ecc71&color=fff",
-        bg: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&q=80&w=1000",
+        foto: "img/adel_profil.jpg",
+        bg: "img/adel_latar.jpg",
         asal: "Medan",
         tgl_lahir: "2007-03-22",
         keluarga: "CACHE",
-        hobi: "---",
-        citacita: "---",
-        ig: "@---",
-        quote: "---"
+        hobi: "watching",
+        citacita: "S2 di swiss",
+        ig: "lltaa_vrsuu",
+        quote: "tempat tinggal boleh dimana aja, tapi mimpi harus setinggi langit"
     },
     {
         nama: "Andre Bonaran Situngkir",
@@ -509,15 +509,15 @@ const dataMahasiswa = [
     {
         nama: "Christa Naomi Silalahi",
         nim: "12S25041",
-        foto: "https://ui-avatars.com/api/?name=Christa+Naomi+Silalahi&background=2ecc71&color=fff",
-        bg: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&q=80&w=1000",
+        foto: "img/crista_profil.jpeg",
+        bg: "img/crista_latar.jpg",
         asal: "Kisaran",
         tgl_lahir: "2007-09-17",
         keluarga: "MOUSE",
-        hobi: "---",
-        citacita: "---",
-        ig: "@---",
-        quote: "---"
+        hobi: "Makan",
+        citacita: "Orang kaya",
+        ig: "christa_sllh",
+        quote: "Your normal day is someone's dream, so be thankful everyday."
     },
     {
         nama: "Dewi Natasya Sitorus",
@@ -587,15 +587,15 @@ const dataMahasiswa = [
     {
         nama: "Eva Dahlia Panjaitan",
         nim: "12S25047",
-        foto: "https://ui-avatars.com/api/?name=Eva+Dahlia+Panjaitan&background=2ecc71&color=fff",
-        bg: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&q=80&w=1000",
+        foto: "img/eva_profil.jpg",
+        bg: "img/eva_latar.jpg",
         asal: "Narumonda 3",
         tgl_lahir: "2007-09-22",
         keluarga: "OTG",
-        hobi: "---",
-        citacita: "---",
-        ig: "@---",
-        quote: "---"
+        hobi: "Memasak",
+        citacita: "Bos besar",
+        ig: "evapjtn__",
+        quote: "Tetap berkarya selagi hidup"
     },
     {
         nama: "Posman H.C. Sitinjak",
@@ -613,28 +613,28 @@ const dataMahasiswa = [
     {
         nama: "Grycelda Sthefanny Bintang Theresia Sianturi",
         nim: "12S25049",
-        foto: "https://ui-avatars.com/api/?name=Sheryl+Valentina+Banurea&background=2ecc71&color=fff",
-        bg: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&q=80&w=1000",
-        asal: "Sleman",
+        foto: "img/grycelda_profil.jpeg",
+        bg: "img/grycelda_latar.jpeg",
+        asal: "Yogyakarta ",
         tgl_lahir: "2007-10-18",
         keluarga: "SWITCH",
-        hobi: "---",
-        citacita: "---",
-        ig: "@---",
-        quote: "---"
+        hobi: "Main badminton n nyanyi ",
+        citacita: "Data analyst",
+        ig: "grycelefanny",
+        quote: "you’re still worthy, even on your worst days."
     },
     {
         nama: "Sheryl Valentina Banurea",
         nim: "12S25050",
-        foto: "https://ui-avatars.com/api/?name=Sheryl+Valentina+Banurea&background=2ecc71&color=fff",
-        bg: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&q=80&w=1000",
+        foto: "img/sheryl_profil.jpg",
+        bg: "img/sheryl_latar.jpg",
         asal: "Pakpak bharat",
         tgl_lahir: "2007-07-02",
         keluarga: "COUNTER",
-        hobi: "---",
-        citacita: "---",
-        ig: "@---",
-        quote: "---"
+        hobi: "Membaca, main puzzle",
+        citacita: "UI/UX Designer",
+        ig: "ryl___b",
+        quote: "Age quod agis "
     },
     {
         nama: "Winni Sitinjak",
@@ -665,15 +665,15 @@ const dataMahasiswa = [
     {
         nama: "Mikhael Jordania Harianja",
         nim: "12S25053",
-        foto: "https://ui-avatars.com/api/?name=Mikhael+Jordania+Harianja&background=2ecc71&color=fff",
-        bg: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&q=80&w=1000",
+        foto: "img/mikael_profil.JPG",
+        bg: "img/mikael_latar.jpg",
         asal: "Balige",
         tgl_lahir: "2007-10-14",
         keluarga: "WEBSITE",
-        hobi: "---",
-        citacita: "---",
-        ig: "@---",
-        quote: "---"
+        hobi: "Bermain permainan yang menyenangkan",
+        citacita: "procoding AI",
+        ig: "mikhaelharianja07",
+        quote: "JUST DO IT"
     },
     {
         nama: "Jessye Carouline",
@@ -728,17 +728,17 @@ const dataMahasiswa = [
         quote: "---"
     },
     {
-        nama: "IMMANUEL SIMARE MARE",
+        nama: "IMMANUEL SIMAREMARE",
         nim: "12S25058",
-        foto: "https://ui-avatars.com/api/?name=IMMANUEL+SIMARE+MARE&background=2ecc71&color=fff",
-        bg: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&q=80&w=1000",
+        foto: "img/imma_profil.jpg",
+        bg: "img/imma_latar.jpg",
         asal: "Medan",
         tgl_lahir: "2006-07-15",
-        keluarga: "TASKBAR' 25",
-        hobi: "---",
-        citacita: "---",
-        ig: "@---",
-        quote: "---"
+        keluarga: "TASKBAR",
+        hobi: "Olahraga, Main Game",
+        citacita: "Presiden ",
+        ig: "emmanuel.smree",
+        quote: "Jangan menunggu sempurna untuk memulai tapi mulailah untuk menjadi sempurna."
     },
     {
         nama: "Ervinna Christine Debora",
