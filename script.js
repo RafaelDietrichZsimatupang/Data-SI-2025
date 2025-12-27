@@ -778,7 +778,10 @@ dataMahasiswa.forEach((mhs, index) => {
     card.onclick = () => openModal(index);
 
     card.innerHTML = `
-        <img src="${mhs.foto}" alt="Foto ${mhs.nama}">
+        <img src="${mhs.foto}" 
+             alt="Foto ${mhs.nama}" 
+             onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name=${mhs.nama}&background=random&color=fff&size=200';">
+        
         <div class="card-info">
             <h3>${mhs.nama}</h3>
             <p>NIM: ${mhs.nim}</p>
@@ -799,7 +802,7 @@ function openModal(index) {
     document.getElementById("modalNim").innerText = "NIM: " + data.nim;
 
     document.getElementById("modalOrigin").innerText = data.asal;
-    document.getElementById("modalBirth").innerText = data.tgl_lahir;
+    document.getElementById("modalBirth").innerText = formatTanggalIndo(data.tgl_lahir);
     document.getElementById("modalFamily").innerText = data.keluarga;
     document.getElementById("modalHobby").innerText = data.hobi;
     document.getElementById("modalGoal").innerText = data.citacita;
@@ -821,4 +824,32 @@ window.onclick = function(event) {
     if (event.target == modal) {
         closeModal();
     }
+}
+
+const searchBox = document.getElementById('searchBox');
+
+searchBox.addEventListener('keyup', (e) => {
+    const searchString = e.target.value.toLowerCase();
+    const cards = document.querySelectorAll('.card');
+
+    cards.forEach((card) => {
+        const nama = card.querySelector('h3').innerText.toLowerCase();
+        const nim = card.querySelector('p').innerText.toLowerCase();
+
+        if (nama.includes(searchString) || nim.includes(searchString)) {
+            card.style.display = "block"; // Tampilkan
+        } else {
+            card.style.display = "none";  // Sembunyikan
+        }
+    });
+});
+
+function formatTanggalIndo(strDate) {
+    if (!strDate || strDate === "---") return "---";
+    const date = new Date(strDate);
+    // Cek apakah tanggal valid
+    if (isNaN(date.getTime())) return strDate; 
+    
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    return date.toLocaleDateString('id-ID', options);
 }

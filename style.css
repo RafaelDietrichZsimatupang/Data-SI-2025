@@ -16,45 +16,73 @@ body {
 }
 
 header {
-    background-image: none;
-    background-color: rgba(3, 221, 255, 0.25); 
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px); 
-    border: 1px solid rgba(1, 128, 255, 0.2);
-    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.981);
+    background: linear-gradient(-45deg, rgba(224, 255, 255, 0.6),rgba(135, 206, 250, 0.6),rgba(72, 209, 204, 0.5),rgba(224, 255, 255, 0.6));
+    background-size: 400% 400%;
+    animation: gradientBG 12s ease infinite;
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0 10px 40px 0 rgba(135, 206, 250, 0.4);
+    
     position: relative;
     color: white; 
     text-align: center;
-    padding: 80px 20px;
-    margin-bottom: 40px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    padding: 100px 20px;
+    margin-bottom: 50px;
+    border-bottom-left-radius: 60px; 
+    border-bottom-right-radius: 60px;
 }
 
 header h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     position: relative; 
     z-index: 2;
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1), 0 0 25px rgba(255, 255, 255, 0.9);
+    letter-spacing: 2px;
+    animation: floatText 4s ease-in-out infinite;
 }
 
 header p {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 400;
-    letter-spacing: 3px;
+    letter-spacing: 8px;
     position: relative;
     z-index: 2;
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 15px rgba(135, 206, 250, 0.3);
 }
- 
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 2rem;
-    }
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes floatText {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-12px); }
+    100% { transform: translateY(0px); }
+}
+
+header h1 {
+    animation: floatText 3s ease-in-out infinite;
+}
+
+@keyframes floatText {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
 }
 
 .container {
@@ -115,16 +143,46 @@ header p {
     justify-content: center;
     animation: fadeIn 0.3s;
 }
-
 .modal-content {
-    background-color: #fff;
+    background: linear-gradient(135deg, #f0fbff 0%, #e0f7fa 100%);
+    border: 1px solid rgba(135, 206, 250, 0.5);
+    box-shadow: 0 10px 40px rgba(135, 206, 250, 0.3);
+
     width: 90%;
     max-width: 500px;
     border-radius: 20px;
     overflow: hidden;
     position: relative;
-    box-shadow: 0 5px 30px rgba(0,0,0,0.3);
     animation: slideUp 0.4s;
+}
+.details {
+    text-align: left;
+    margin-bottom: 25px;
+    backdrop-filter: blur(10px);
+    border: 2px solid #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+.details p {
+    color: #222 !important; 
+    font-weight: 500;
+    text-shadow: none;
+}
+
+.details strong {
+    color: #0056b3;
+}
+.quote-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-left: 5px solid #007bff;
+    padding: 15px;
+    font-style: italic;
+    color: #333; 
+    font-weight: 500;
+    
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
 .close {
@@ -142,12 +200,36 @@ header p {
 .close:hover {
     color: #ff7675;
 }
-
 .modal-bg {
     height: 180px;
     width: 100%;
     background-size: cover;
     background-position: center;
+    position: relative;
+    z-index: 1;
+    box-shadow: 
+        inset 0 -20px 30px -10px rgba(0,0,0,0.1),
+        0 5px 15px rgba(0,0,0,0.1);
+}
+.profile-pic-large {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px solid #ffffff; 
+    
+    background-color: white;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+    margin-top: -70px;
+    box-shadow: 
+        0 5px 15px rgba(0,0,0,0.2), 
+        0 10px 40px rgba(135, 206, 250, 0.6); 
+    animation: popUpFoto 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+@keyframes popUpFoto {
+    0% { transform: scale(0.5) translateY(50px); opacity: 0; }
+    100% { transform: scale(1) translateY(0); opacity: 1; }
 }
 
 .modal-body {
