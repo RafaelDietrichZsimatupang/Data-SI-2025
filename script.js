@@ -2,7 +2,7 @@ const dataMahasiswa = [
     {
         nama: "Gracia Anggreini Fitaloka Hutagaol",
         nim: "12S25001",
-        foto: "img/gracia_profil.png",
+        foto: "img/gracia_profi.jpeg",
         bg: "img/gracia_latar.jpeg",
         asal: "Toba Samosir",
         tgl_lahir: "10/18/2007",
@@ -405,15 +405,15 @@ const dataMahasiswa = [
     {
         nama: "Maria Octavia Simorangkir",
         nim: "12S25033",
-        foto: "https://ui-avatars.com/api/?name=Maria+Octavia+Simorangkir&background=2ecc71&color=fff",
-        bg: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&q=80&w=1000",
-        asal: "Bekasi",
+        foto: "img/maria_profil.jpg",
+        bg: "img/maria_latar.jpg",
+        asal: "Tarutung",
         tgl_lahir: "2006-10-11",
         keluarga: "COMPILER",
-        hobi: "---",
-        citacita: "---",
-        ig: "@---",
-        quote: "---"
+        hobi: "Menari",
+        citacita: "Data analyst",
+        ig: "mariiasmrngkr",
+        quote: "setiap hari adalah kesempatan baru untuk menjadi lebih baik"
     },
     {
         nama: "Ignacia Putri Manurung",
